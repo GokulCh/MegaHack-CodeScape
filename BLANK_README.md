@@ -16,7 +16,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">CodeScape</h3>
 
   <p align="center">
     project_description
@@ -59,7 +59,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
+m
 
 
 <!-- ABOUT THE PROJECT -->
@@ -163,7 +163,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+jgfjr
 
 <!-- LICENSE -->
 ## License
