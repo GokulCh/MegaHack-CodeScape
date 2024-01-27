@@ -219,7 +219,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 3. Harita Agarwal - [@github_handle](https://github.com/hpa179) - agarwalhp@vcu.edu
 4. Kshitij Kokkera - [@github_handle](https://github.com/kshitijkokkeravcu) - kokkerak@vcu.edu
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/GokulCh/MegaHack-CodeScape)
+Project Link: [https://github.com/GokulCh/MegaHack-CodeScape](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
