@@ -214,10 +214,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Prakash Chatlani - [@github_handle](https://github.com/prakashhc) - chatlanipr@vcu.edu
-Gokul Chaluvadi - [@github_handle](https://github.com/GokulCh) - chaluvadig@vcu.edu
-Harita Agarwal - [@github_handle](https://github.com/hpa179) - agarwalhp@vcu.edu
-Kshitij Kokkera - [@github_handle](https://github.com/kshitijkokkeravcu) - kokkerak@vcu.edu
+1. Prakash Chatlani - [@github_handle](https://github.com/prakashhc) - chatlanipr@vcu.edu
+2. Gokul Chaluvadi - [@github_handle](https://github.com/GokulCh) - chaluvadig@vcu.edu
+3. Harita Agarwal - [@github_handle](https://github.com/hpa179) - agarwalhp@vcu.edu
+4. Kshitij Kokkera - [@github_handle](https://github.com/kshitijkokkeravcu) - kokkerak@vcu.edu
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/GokulCh/MegaHack-CodeScape)
 
