@@ -8,6 +8,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -15,10 +16,10 @@
     <img src="assets/imgs/bug-fill.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">CodeScape</h3>
+<h3 align="center">VCU MegaHack-CodeScape</h3>
 
   <p align="center">
-    project_description
+    Everyone says the best way to conquer a coding problem is to write it out. Our goal at CodeScape is to convert your pseudocode into actual code. By utilizing modern-day AI like ChatGPT, we are able to take in photos and release a mockup of your code in any desired language.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -82,6 +83,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][https://python.org]][Python-url]
+* [![Node.js][https://nodejs.org]][NodeJS-url]
+* [![OpenAI][https://openai.com]][OpenAI-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,23 +171,23 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# MegaHack-CodeScape
 
-## Inspiration: 
-### CodeScape was inspired by the typical problem that developers have when converting pseudocode into real code. In our opinion planning and organizing your ideas before implementing them can be made easier by using pseudocode to visualize your thought process of approaching the problem. By utilizing ChatGPT, a AI tool, to read and produce code based on your pseudocode, CodeScape seeks to close the gap between planning and execution. 
 
-## What it does: 
-### Pseudocode may be entered into CodeScape and converted into actual code segments in any preferred programming language. This is accomplished by first translating the pseudocode into executable code using ChatGPT's skills to understand the logic and intent behind it. Users may choose the target programming language, submit their pseudocode, and get a code sample in return. 
+### Inspiration: 
+CodeScape was inspired by the typical problem that developers have when converting pseudocode into real code. In our opinion planning and organizing your ideas before implementing them can be made easier by using pseudocode to visualize your thought process of approaching the problem. By utilizing ChatGPT, a AI tool, to read and produce code based on your pseudocode, CodeScape seeks to close the gap between planning and execution. 
 
-## How we built it: 
+### What it does: 
+Pseudocode may be entered into CodeScape and converted into actual code segments in any preferred programming language. This is accomplished by first translating the pseudocode into executable code using ChatGPT's skills to understand the logic and intent behind it. Users may choose the target programming language, submit their pseudocode, and get a code sample in return. 
 
-## Challenges we ran into:
+### How we built it: 
 
-## Accomplishments that we're proud of:
+### Challenges we ran into:
 
-## What we learned:
+### Accomplishments that we're proud of:
 
-## What's next for CodeScape:
+### What we learned:
+
+### What's next for CodeScape:
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -239,7 +244,7 @@ Project Link: [https://github.com/GokulCh/MegaHack-CodeScape](https://github.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/GokulCh/MegaHack-CodeScape/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
@@ -267,3 +272,4 @@ Project Link: [https://github.com/GokulCh/MegaHack-CodeScape](https://github.com
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
