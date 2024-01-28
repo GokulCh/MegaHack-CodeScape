@@ -102,12 +102,12 @@ nav .bar a {
   justify-content: center;
   min-height: 150px;
   padding: 8rem;
-  padding-left: 16rem;
-  padding-right: 16rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
 
   overflow: hidden;
   box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
-}
+} 
 
 .hero-tools img{
   width:100px;
