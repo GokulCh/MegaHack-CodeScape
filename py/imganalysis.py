@@ -12,7 +12,7 @@ client = OpenAI()
 # image_path = "../test_imgs/ex2.png"
 prog_lang = sys.argv[1];
 image_path = sys.argv[2];
-base64_image = encode_image(image_path)
+# base64_image = encode_image(image_path)
 
 
 response = client.chat.completions.create(
