@@ -1,17 +1,17 @@
-secret_key = "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"
-secret_key = "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"
 from openai import OpenAI
 import base64
 import requests
-
+import sys
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
 
 
-client = OpenAI(api_key = secret_key)
+client = OpenAI()
 
-image_path = "../test_imgs/ex.png"
+# image_path = "../test_imgs/ex2.png"
+prog_lang = sys.argv[1];
+image_path = sys.argv[2];
 base64_image = encode_image(image_path)
 
 
@@ -21,17 +21,18 @@ response = client.chat.completions.create(
     {
       "role": "user",
       "content": [
-        {"type": "text", "text": "Do not include any explanation. Only extract the text in this image in latex format."},
+        {"type": "text", "text": "Do not include any explanation or any other irrelevant data. Convert the text in this image into syntactically correct "  + prog_lang + " as well as plaintext, separate these two forms with a newline of 6 hashtag symbols. For example if the text in an image is int i = 0; while i < 10; display(i) then you should output public class Example { public static void main(String[] args) { int i = 0; while (i <= 10) { display(i); i++; } } static void display(int value) { System.out.println(value); } }"},
         {
           "type": "image_url",
           "image_url": {
-            "url": f"data:image/jpeg;base64,{base64_image}",
+            "url": image_path,
           },
         },
       ],
     }
   ],
-  max_tokens=300,
+  max_tokens=600,
 )
 
-print(response.choices[0])
+print(response.choices[0].message.content)
+sys.stdout.flush()
