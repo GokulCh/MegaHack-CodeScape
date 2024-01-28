@@ -16,7 +16,7 @@
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="[https://github.com/github_username/repo_name](https://gokulch.github.io/MegaHack-CodeScape/)">View Demo</a>
+    <a href="https://gokulch.github.io/MegaHack-CodeScape">View Demo</a>
   </p>
 </div>
 
