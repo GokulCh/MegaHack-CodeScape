@@ -13,7 +13,7 @@ wss.on('connection', function connection(ws) {
     ws.on('message', function incoming(message) {
         console.log(message);
 
-        exec(`python ../py/imganalysis.py java ${message}`, (error, stdout, stderr) => {
+        exec(`python ../py/imganalysis.py y ${message}`, (error, stdout, stderr) => {
             if (error) {
                 console.log(`error: ${error.message}`);
                 return;
