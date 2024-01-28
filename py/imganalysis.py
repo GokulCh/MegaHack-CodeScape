@@ -2,12 +2,16 @@ from openai import OpenAI
 import base64
 import requests
 import sys
+import os
+
+print("PY FILE RUNNED")
+
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
 
 
-client = OpenAI()
+client =OpenAI(api_key="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");
 
 # image_path = "../test_imgs/ex2.png"
 prog_lang = sys.argv[1];

@@ -45,12 +45,10 @@
           <label for="fileInput">
             <img src="assets/imgs/insertImage.png" alt="Insert Image">
           </label>
-          <br><br>
-          <input type="file" id="fileInput" accept="image/*" style="display: none;">
-          <button onclick="uploadToImgur()">Upload to Imgur</button>
+          <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="uploadToImgur()">
           <img id="previewImage" alt="Preview" style="display: none; max-width: 100%; height: auto;" />
-
         </div>
+
       </div>
     </section>
 
@@ -64,20 +62,20 @@
         text extraction in various languages.
         Once you're done, you can download the text as a file or copy it to the clipboard.
       </p>
-      
-    </section>
 
-    <section class="Process">
+      <br></br>
       <h1 class="process-header">
         Our Process
       </h1>
-      <p>Our project utilizes HTML, CSS, JavaScript, and Python to deliver a tool that can be used by students of all experience levels.
-        When using our tool, you first begin your journey in the website you are currently on. Next, you add and submit an image with your pseudocode.
+      <p>Our project utilizes HTML, CSS, JavaScript, and Python to deliver a tool that can be used by students of all
+        experience levels.
+        When using our tool, you first begin your journey in the website you are currently on. Next, you add and submit
+        an image with your pseudocode.
       </p>
     </section>
 
   </main>
-  <script src="js/index.js"></script>
+  <script src="js/imgurUpload.js"></script>
 </body>
 
 </html>

@@ -93,7 +93,6 @@ nav .bar a {
   font-weight: 300;
   color: #ecf0f9;
 }
-
 .hero-tools {
   border: 2px dashed #eaeaea;
   border-radius: 1rem;
@@ -102,9 +101,17 @@ nav .bar a {
   align-items: center; /* Add this */
   justify-content: center;
   min-height: 150px;
-  padding: 7em;
+  padding: 7rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+
   overflow: hidden;
   box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
+}
+
+#previewImage {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
@@ -145,15 +152,14 @@ nav .bar a {
 
 /* Tool Bar */
 
-
 /* About Section */
 .about {
   margin: 0 0;
   text-align: center;
   color: #101e37;
-  background: #d8d8d8;
+  background: #9e9e9e;
   padding: 5%;
-  border-radius: .5rem;
+  border-radius: 0.2rem;
 }
 
 .about p{
@@ -167,12 +173,28 @@ nav .bar a {
   color: #101e37;
   background: #d8d8d8;
   padding: 5%;
-  border-radius: .5rem;
+  border-radius: 0.2rem;
 }
 
 .process p{
   margin-right: 150px;
   margin-left: 150px;
+}
+
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
 }
 
 /* Media Queries */
