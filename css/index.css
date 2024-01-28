@@ -109,11 +109,6 @@ nav .bar a {
   box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
 }
 
-#previewImage {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .hero-tools img{
   width:100px;
   height:100px;
@@ -139,10 +134,12 @@ nav .bar a {
 .hero .get-started {
   background: linear-gradient(45deg, #24447e, #16346b);
   box-shadow: 0 0rem 1.5rem rgb(73, 118, 202, 30%);
+  animation: floating 4s ease-in-out infinite;
 }
 
 .hero .get-started:hover {
   box-shadow: 0 0rem 1rem rgb(73, 118, 202, 20%);
+
 }
 
 .hero .how-does-it-work {
@@ -192,8 +189,8 @@ nav .bar a {
 
 @keyframes floating {
   0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 15px); }
-  100%   { transform: translate(0, -0px); }    
+  50%  { transform: translate(0, -10px); }
+  100%   { transform: translate(0, 0px); }    
 }
 
 /* Media Queries */
