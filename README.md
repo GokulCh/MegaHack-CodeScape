@@ -32,27 +32,30 @@ CodeScape was inspired by the typical problem that developers have when converti
 Pseudocode may be entered into CodeScape and converted into actual code segments in any preferred programming language. This is accomplished by first translating the pseudocode into executable code using ChatGPT's skills to understand the logic and intent behind it. Users may choose the target programming language, submit their pseudocode, and get a code sample in return. 
 
 ### How we built it: 
-We chose to use HTML, CSS, and JavaScript to build the front-end and then Python to cover the back end. While exploring the scopes of HTML, CSS, and JS, we were able to create a functioning web application and learned more about new tags that would help us connect our front-end to the back-end (like <input> to allow the user to provide the webpage with an image from their PC). We incorporated Python with our project by running scripts that would access the OpenAI API to decipher human text (pseudocode) and return code in languages that the user asked for.
+We chose to use HTML, CSS, and JavaScript to build the front-end and then Python to cover the back end. While exploring the scopes of HTML, CSS, and JS, we were able to create a functioning web application and learned more about new tags that would help us connect our front-end to the back-end (like input to allow the user to provide the webpage with an image from their PC). We incorporated Python with our project by running scripts that would access the OpenAI API to decipher human text (pseudocode) and return code in languages that the user asked for.
 
 
 ### Challenges we ran into:
-Finding ways to save the inputted images into our device
-Finding a file type that would be valid to upload when converting to pseudocode. 
-Linking the image from the database to ChatGPT
-Optimizing the AI model 
-Code Conceptual Correctness
+* Finding ways to save the inputted images into our device
+* Finding a file type that would be valid to upload when converting to pseudocode. 
+* Linking the image from the database to ChatGPT
+* Optimizing the AI model 
+* Code Conceptual Correctness
 
 
 ### Accomplishments that we're proud of:
 We are proud of our beautiful front-end along with our end result, which successfully allows the user to easily insert an image and get the code back.
 
 ### What we learned:
+*  We were able to successfully implement an Image Upload feature using imgur, AI, and HTML5, which allowed us to store user uploaded images in our local machine. 
+* We were able to learn how to work with API's and image analysis  in Python, as well as how to use GPT-3 for generating pseudocode. 
+* How to connect client and server  side code using Python, HTML, CSS, JavaScript, etc.
 
 ### What's next for CodeScape:
-User account
-Add more language compatibility
-Improved handwritten character recognition
-Expanded human language support
+* User account
+* Add more language compatibility
+* Improved handwritten character recognition
+* Expanded human language support
 
 
 ### Built With
