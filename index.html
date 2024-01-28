@@ -41,14 +41,14 @@
           <a class="button how-does-it-work" href="#">How does it work?</a>
         </div>
 
-        <div class="hero-tools">
-          <label for="fileInput">
-            <img src="assets/imgs/insertImage.png" alt="Insert Image">
-          </label>
-          <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="uploadToImgur()">
-          <img id="previewImage" alt="Preview" style="display: none; max-width: 100%; height: auto;" />
-        </div>
-
+        <label>
+          <div class="hero-tools">
+            <img src="assets/imgs/insertImage.png" id="inputImage" alt="Insert Image">
+            <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="uploadToImgur()">
+            <img id="previewImage" alt="Preview" style="display: none; max-width: 100%; height: auto;" />
+          </div>
+        </label>
+        
       </div>
     </section>
 

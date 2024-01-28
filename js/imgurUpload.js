@@ -10,10 +10,10 @@ function uploadToImgur() {
   const fileInput = document.getElementById('fileInput');
   const previewImage = document.getElementById('previewImage');
 
-
-
   const file = fileInput.files[0];
   if (file) {
+    document.getElementById("inputImage").remove()
+
     const reader = new FileReader();
     reader.onload = function (e) {
       previewImage.src = e.target.result;
@@ -34,8 +34,7 @@ function uploadToImgur() {
         .then(response => response.json())
         .then(data => {
           sendMessage(data.data.link)
-          console.log(data.data.link)
-
+          console.log("Imgur API Responce:", data)
         })
         .catch(error => console.error('Error uploading to Imgur:', error));
     };

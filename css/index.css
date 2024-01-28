@@ -101,9 +101,9 @@ nav .bar a {
   align-items: center; /* Add this */
   justify-content: center;
   min-height: 150px;
-  padding: 7rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding: 8rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
 
   overflow: hidden;
   box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
@@ -113,7 +113,6 @@ nav .bar a {
   max-width: 100%;
   max-height: 100%;
 }
-
 
 .hero-tools img{
   width:100px;
