@@ -100,7 +100,7 @@ nav .bar a {
   align-items: center;
   justify-content: center;
   min-height: 150px;
-  padding: 7rem;
+  padding: 7em;
   overflow: hidden;
   box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
 }
@@ -134,6 +134,9 @@ nav .bar a {
 .hero .how-does-it-work {
   background-color: #101e37;
 }
+
+/* Tool Bar */
+
 
 /* About Section */
 .about {
