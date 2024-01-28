@@ -22,9 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This project is a submission for VCU's MegaHacks Hackathon, where we were tasked to develop a simple web application that performs a useful function. For example, it could be a task tracker, a note-taking app, a weather app, etc. 
 
 
 ### Inspiration
@@ -34,23 +32,34 @@ CodeScape was inspired by the typical problem that developers have when converti
 Pseudocode may be entered into CodeScape and converted into actual code segments in any preferred programming language. This is accomplished by first translating the pseudocode into executable code using ChatGPT's skills to understand the logic and intent behind it. Users may choose the target programming language, submit their pseudocode, and get a code sample in return. 
 
 ### How we built it: 
+We chose to use HTML, CSS, and JavaScript to build the front-end and then Python to cover the back end. While exploring the scopes of HTML, CSS, and JS, we were able to create a functioning web application and learned more about new tags that would help us connect our front-end to the back-end (like <input> to allow the user to provide the webpage with an image from their PC). We incorporated Python with our project by running scripts that would access the OpenAI API to decipher human text (pseudocode) and return code in languages that the user asked for.
+
 
 ### Challenges we ran into:
+Finding ways to save the inputted images into our device
+Finding a file type that would be valid to upload when converting to pseudocode. 
+Linking the image from the database to ChatGPT
+Optimizing the AI model 
+Code Conceptual Correctness
+
 
 ### Accomplishments that we're proud of:
+We are proud of our beautiful front-end along with our end result, which successfully allows the user to easily insert an image and get the code back.
 
 ### What we learned:
 
 ### What's next for CodeScape:
+User account
+Add more language compatibility
+Improved handwritten character recognition
+Expanded human language support
+
 
 ### Built With
 [![HTML][HTML-shield]][HTML-url] [![CSS][CSS-shield]][CSS-url] [![Node.js][NodeJS-shield]][NodeJS-url] [![Python][Python-shield]][Python-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -108,12 +117,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+<div align="center">
+    <img src="assets/imgs/roadmap.png" alt="roadmap" width="600" height="400">
+  </a>
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+
+
+See the [open issues]https://github.com/GokulCh/MegaHack-CodeScape/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
