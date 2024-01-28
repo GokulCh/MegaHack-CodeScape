@@ -4,18 +4,18 @@ function hideHeroMain() {
 
   // Hero Main
   heroMain.style.opacity = 0;
-  heroMain.style.transition = 'opacity 0.5s ease';
+  heroMain.style.transition = 'opacity 0.1s ease';
 
   setTimeout(function () {
     heroMain.style.display = 'none';
   }, 500);
 
-  // Slide the image to the left with a smoother transition and zoom effect
+  // Slide the image to the left 
   var previewImage = document.getElementById('previewImage');
-  var duration = 1500;  // Adjust the duration here
+  var duration = 3000;  
   var startTime = null;
-  var startMargin = 0; // Adjust the starting margin
-  var startScale = 1.5; // Adjust the starting scale
+  var startMargin = 0; 
+  var startScale = 1.2; 
 
   function animate(time) {
     if (!startTime) {
@@ -25,7 +25,7 @@ function hideHeroMain() {
     var easedProgress = easeOutCubic(progress);
 
     previewImage.style.marginLeft = -startMargin * easedProgress + 'px';
-    previewImage.style.transform = 'scale(' + (startScale + (7 - startScale) * easedProgress) + ')'; // Adjust the target scale value
+    previewImage.style.transform = 'scale(' + (startScale + (7 - startScale) * easedProgress) + ')'; 
 
     if (progress < 1) {
       requestAnimationFrame(animate);
@@ -35,7 +35,9 @@ function hideHeroMain() {
   requestAnimationFrame(animate);
 }
 
-// Easing function for smoother animation
+
 function easeOutCubic(t) {
-  return 1 - Math.pow(1 - t, 3);
+ return 1 - Math.pow(1 - t, 3);
 }
+
+
