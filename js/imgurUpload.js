@@ -34,6 +34,7 @@ function uploadToImgur() {
         .then(response => response.json())
         .then(data => {
           sendMessage(data.data.link)
+          alert("Imgur API Responce:", data.data.link)
           console.log("Imgur API Responce:", data)
         })
         .catch(error => console.error('Error uploading to Imgur:', error));

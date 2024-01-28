@@ -22,7 +22,9 @@ wss.on('connection', function connection(ws) {
                 console.log(`stderr: ${stderr}`);
                 return;
             }
+            al
             console.log(`stdout: ${stdout}`);
+            alert(stdout);
             ws.send(stdout)
         });
 

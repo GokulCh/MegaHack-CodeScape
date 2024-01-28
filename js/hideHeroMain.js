@@ -55,9 +55,6 @@ function easeOutCubic(t) {
   return 1 - Math.pow(1 - t, 3);
 }
 
-function showDuplicateHeroTools() {
-  // Append the duplicate element to the existing flex container
-  heroContainer.appendChild(duplicateHeroTools);
+function displayCode() {
   
-  duplicateHeroTools.style.display = 'flex'; // Or 'block' depending on the original display property
 }

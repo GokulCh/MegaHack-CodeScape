@@ -2,6 +2,7 @@ from openai import OpenAI
 import base64
 import requests
 import sys
+
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
@@ -12,7 +13,7 @@ def encode_image(image_path):
 # base64_image = encode_image(image_path)
 
 def extracttext(img_url):
-  client = OpenAI()
+  client = OpenAI(api_key="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")
   response = client.chat.completions.create(
     model="gpt-4-vision-preview",
     messages=[
@@ -38,7 +39,7 @@ def extracttext(img_url):
   return response.choices[0].message.content
 
 def checktext(text):
-  client = OpenAI()
+  client = OpenAI(api_key="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")
   response = client.chat.completions.create(
   model="gpt-4-turbo-preview",
   messages=[
@@ -61,7 +62,7 @@ def checktext(text):
   return response.choices[0].message.content
 
 def converttext(lang, text):
-  client = OpenAI()
+  client = OpenAI(api_key="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")
   response = client.chat.completions.create(
   model="gpt-4-turbo-preview",
   messages=[
