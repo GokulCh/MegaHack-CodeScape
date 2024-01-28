@@ -44,11 +44,11 @@
         <label>
           <div class="hero-tools">
             <img src="assets/imgs/insertImage.png" id="inputImage" alt="Insert Image">
-            <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="uploadToImgur()">
+            <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="uploadToImgur(), hideHeroMain()">
             <img id="previewImage" alt="Preview" style="display: none; max-width: 100%; height: auto;" />
           </div>
         </label>
-        
+
       </div>
     </section>
 
@@ -76,6 +76,7 @@
 
   </main>
   <script src="js/imgurUpload.js"></script>
+  <script src="js/hideHeroMain.js"></script>
 </body>
 
 </html>
