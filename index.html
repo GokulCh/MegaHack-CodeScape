@@ -25,7 +25,7 @@
   </nav>
 
   <main>
-    
+
     <section class="hero">
       <div class="hero-container">
         <div class="hero-main">
@@ -42,25 +42,42 @@
         </div>
 
         <div class="hero-tools">
-          <h4>Drag & Drop, Upload or Paste image</h4>
-          <input type="file" 
-               id="file1" 
-               name="upload"> 
+          <label for="fileInput">
+            <img src="assets/imgs/insertImage.png" alt="Insert Image">
+          </label>
+          <br><br>
+          <input type="file" id="fileInput" accept="image/*" style="display: none;">
+          <button onclick="uploadToImgur()">Upload to Imgur</button>
+          <img id="previewImage" alt="Preview" style="display: none; max-width: 100%; height: auto;" />
+
         </div>
       </div>
     </section>
 
     <section class="about">
-        <h1 class="about-header">
-          About
-        </h1>
-        <p>Using OCR (Optical Character Recognition), you can extracts text from images. Just upload your photos, click submit, and instantly receive your text file.
-          Powered by tesseract-ocr, a Google-backed open-source software, our tool supports multiple languages, enabling text extraction in various languages.
-          Once you're done, you can download the text as a file or copy it to the clipboard.
-        </p>
+      <h1 class="about-header">
+        About
+      </h1>
+      <p>Using OCR (Optical Character Recognition), you can extracts text from images. Just upload your photos, click
+        submit, and instantly receive your text file.
+        Powered by tesseract-ocr, a Google-backed open-source software, our tool supports multiple languages, enabling
+        text extraction in various languages.
+        Once you're done, you can download the text as a file or copy it to the clipboard.
+      </p>
+      
+    </section>
+
+    <section class="Process">
+      <h1 class="process-header">
+        Our Process
+      </h1>
+      <p>Our project utilizes HTML, CSS, JavaScript, and Python to deliver a tool that can be used by students of all experience levels.
+        When using our tool, you first begin your journey in the website you are currently on. Next, you add and submit an image with your pseudocode.
+      </p>
     </section>
 
   </main>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

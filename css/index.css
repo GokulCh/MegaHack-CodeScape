@@ -97,19 +97,27 @@ nav .bar a {
 .hero-tools {
   border: 2px dashed #eaeaea;
   border-radius: 1rem;
-  align-items: center;
+  display: flex; /* Add this */
+  flex-direction: column; /* Add this */
+  align-items: center; /* Add this */
   justify-content: center;
   min-height: 150px;
-  padding: 7rem;
+  padding: 7em;
   overflow: hidden;
-  box-shadow: 0 0 3rem rgb(73, 118, 202, 30%);
+  box-shadow: 0 0 2rem rgb(73, 118, 202, 30%);
 }
 
-.hero-tools:hover {
+
+.hero-tools img{
+  width:100px;
+  height:100px;
+}
+
+.hero-tools img, button:hover {
   cursor: pointer;
 }
 
-.hero .button {
+.hero .button{
   display: inline-block;
   margin-right: 1.2rem;
   margin-top: 1.5rem;
@@ -124,16 +132,19 @@ nav .bar a {
 
 .hero .get-started {
   background: linear-gradient(45deg, #24447e, #16346b);
-  box-shadow: 0 0rem 2rem rgb(73, 118, 202, 30%);
+  box-shadow: 0 0rem 1.5rem rgb(73, 118, 202, 30%);
 }
 
 .hero .get-started:hover {
-  box-shadow: 0 0rem 1.5rem rgb(73, 118, 202, 20%);
+  box-shadow: 0 0rem 1rem rgb(73, 118, 202, 20%);
 }
 
 .hero .how-does-it-work {
   background-color: #101e37;
 }
+
+/* Tool Bar */
+
 
 /* About Section */
 .about {
@@ -143,6 +154,25 @@ nav .bar a {
   background: #d8d8d8;
   padding: 5%;
   border-radius: .5rem;
+}
+
+.about p{
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.process {
+  margin: 0 0;
+  text-align: center;
+  color: #101e37;
+  background: #d8d8d8;
+  padding: 5%;
+  border-radius: .5rem;
+}
+
+.process p{
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 /* Media Queries */
@@ -177,3 +207,4 @@ nav .bar a {
     padding: 3rem;
   }
 }
+
